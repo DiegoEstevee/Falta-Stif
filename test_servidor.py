@@ -33,9 +33,10 @@ class TestSimpleHTTPServer(unittest.TestCase):
         self.assertIn("text/html", response.headers['Content-Type'])
 
         # Verifica que el contenido HTML esperado esté en la respuesta
+
         self.assertIn("<h1><p>Web de Falta-Stif.</p></h1>", response.text)
         self.assertIn("<p>Este es un servidor simple que responde a solicitudes GET.</p>", response.text)
-        self.assertIn("<img src='https://cdn.amxinfra.com/unotv/images/2026/01/cristiano-ronaldo-juventus-170213.jpg'>")
+        self.assertIn('<img src="https://cdn.amxinfra.com/unotv/images/2026/01/cristiano-ronaldo-juventus-170213.jpg">', response.text)
 
 
 
