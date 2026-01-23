@@ -17,7 +17,8 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
             <title>Servidor Python</title>
         </head>
         <body>
-            <h1>Hola desde un servidor Python</h1>
+            
+            <h1><p>Web de Falta-Stif.</p></h1>
             <p>Este es un servidor simple que responde a solicitudes GET.</p>
         </body>
         </html>"""
