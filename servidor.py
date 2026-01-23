@@ -20,6 +20,7 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
             
             <h1><p>Web de Falta-Stif.</p></h1>
             <p>Este es un servidor simple que responde a solicitudes GET.</p>
+            <img src="https://cdn.amxinfra.com/unotv/images/2026/01/cristiano-ronaldo-juventus-170213.jpg">
         </body>
         </html>"""
 
