@@ -19,10 +19,8 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
         <body>
             <h1>Hola desde un servidor Python</h1>
             <p>Este es un servidor simple que responde a solicitudes GET.</p>
-            <img src="https://cdn.amxinfra.com/unotv/images/2026/01/cristiano-ronaldo-juventus-170213.jpg"
-         alt="Imagen de prueba"
-         width="400">
-         </body>
+            <img src="https://cdn.amxinfra.com/unotv/images/2026/01/cristiano-ronaldo-juventus-170213.jpg">
+        </body>
         </html>"""
 
         # Escribir el contenido HTML en la respuesta

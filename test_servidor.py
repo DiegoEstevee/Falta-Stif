@@ -35,6 +35,7 @@ class TestSimpleHTTPServer(unittest.TestCase):
         # Verifica que el contenido HTML esperado esté en la respuesta
         self.assertIn("<h1>Hola desde un servidor Python</h1>", response.text)
         self.assertIn("<p>Este es un servidor simple que responde a solicitudes GET.</p>", response.text)
+        self.assertIn('<img src="https://cdn.amxinfra.com/unotv/images/2026/01/cristiano-ronaldo-juventus-170213.jpg">')
 
 
 if __name__ == '__main__':
